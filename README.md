@@ -1,9 +1,11 @@
 # Shoe_Shop_Apex
-University project made with Apex 4.2 and JasperReports
-Shoe shop management:
--Adding customers and products
--Creating orders
--Creating reports 
+
+University project made with Apex 4.2 and JasperReports.
+
+### Shoe shop management:
+* Adding customers and products.
+* Creating and editing orders.
+* Creating reports.
 
 ### Sample screenshot:
 ![Shoe_Shop_Apex](sample1.jpg)
