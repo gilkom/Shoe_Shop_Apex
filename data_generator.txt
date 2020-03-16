@@ -1,0 +1,276 @@
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Sportowe');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Sandaly');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Baleriny');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Trampki');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Trekkingowe');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Inne');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Szpilki');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Domowe');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Botki');
+insert into buty_rodzaje_produktow(NAZWA_RODZAJU_PRODUKTU) values('Kozaki');
+
+
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Buty sportowe',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+1);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Buty sportowe adidas',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+1);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Buty sportowe nike',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+1);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Buty sportowe reebook',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+1);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sandaly biale',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+2);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sandaly niebieskie',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+2);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sandaly zielone',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+2);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sandaly czarne',
+(select round(dbms_random.value(60,400),2) from dual),
+'Buty sportowe do biegania i skakania',
+(select round(dbms_random.value(32,48),0) from dual),
+2);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Baleriny biale',(select round(dbms_random.value(60,400),2) from dual),
+'Baleriny biale do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),3);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Baleriny zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Baleriny zielone do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),3);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Baleriny niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Baleriny niebieskie do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),3);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Baleriny czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Baleriny czarne do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),3);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trampki biale',(select round(dbms_random.value(60,400),2) from dual),
+'Trampki biale do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),4);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trampki zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Trampki zielone do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),4);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trampki niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Trampki niebieskie do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),4);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trampki czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Trampki czarne do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),4);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trekkingowe biale',(select round(dbms_random.value(60,400),2) from dual),
+'Trekkingowe biale do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),5);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trekkingowe zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Trekkingowe zielone do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),5);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trekkingowe niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Trekkingowe niebieskie do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),5);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Trekkingowe czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Trekkingowe czarne do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),5);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Szpilki biale',(select round(dbms_random.value(60,400),2) from dual),
+'Szpilki biale do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),7);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Szpilki zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Szpilki zielone do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),7);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Szpilki niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Szpilki niebieskie do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),7);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Szpilki czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Szpilki czarne do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),7);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Domowe biale',(select round(dbms_random.value(60,400),2) from dual),
+'Domowe biale do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),8);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Domowe zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Domowe zielone do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),8);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Domowe niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Domowe niebieskie do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),8);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Domowe czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Domowe czarne do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),8);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Botki biale',(select round(dbms_random.value(60,400),2) from dual),
+'Botki biale do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),9);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Botki zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Botki zielone do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),9);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Botki niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Botki niebieskie do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),9);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Botki czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Botki czarne do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),9);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Kozaki biale',(select round(dbms_random.value(60,400),2) from dual),
+'Kozaki biale do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),10);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Kozaki zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Kozaki zielone do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),10);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Kozaki niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Kozaki niebieskie do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),10);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Kozaki czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Kozaki czarne do biegania i skakania',(select round(dbms_random.value(32,48),0) from dual),10);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sznurowki',(select round(dbms_random.value(60,400),2) from dual),
+'Sznurowki',null,6);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sznurowki zielone',(select round(dbms_random.value(60,400),2) from dual),
+'Sznurowki zielone do biegania i skakania',null,6);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sznurowki niebieskie',(select round(dbms_random.value(60,400),2) from dual),
+'Sznurowki niebieskie do biegania i skakania',null,6);
+insert into buty_produkty(nazwa_produktu,cena_produktu, opis_produktu, rozmiar_produktu,rodzaj_produktu)
+values(
+'Sznurowki czarne',(select round(dbms_random.value(60,400),2) from dual),
+'Sznurowki czarne do biegania i skakania',null,6);
+
+
+
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Jan', 'Kowalski','Wolska 12/5', 'Warszawa', '01-031',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'kowalski@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Anna', 'Nowak','Stawki 12/76', 'Warszawa', '01-231',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'annai@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Karol', 'Kowalski','Marszalkowska 34/34', 'Warszawa', '01-234',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'kowra@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Michal', 'Wisniewski','Wisniewska', 'Warszawa', '01-421',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'wisi@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Daria', 'Malarz','Gdanska 34/65', 'Gdansk', '05-234',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'gasd@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Tomasz', 'Bobek','Pilsudskiego 12/87', 'Gdansk', '05-123',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'tomasz@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Jan', 'Nowak','Raszynska 87/345', 'Gdynia', '07-234',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'jano@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Andrzej', 'Rybitwa','Kochanowskiego 12/12', 'Wroclaw', '04-523',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'rybi@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Lidia', 'Wisnia','Mocna 76/4', 'Wroclaw', '03-651',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'kski@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Janina', 'Kowalewska','Polska 32/5', 'Krakow', '04-032',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'dkjai@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Lech', 'Lechowski','Mala 44/3', 'Krakow', '05-234',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'lechlech@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Igor', 'Malecki','Galowa 3/5', 'Krakow', '08-331',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'asdfaki@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Katarzyna', 'Banka','Slona 98', 'Szczecin', '03-039',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'katarz@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Barbara', 'Kania','Sienna 54/23', 'Bialystok', '04-066',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'barbi@gmail.com');
+insert into buty_klienci(imie_klienta, nazwisko_klienta, ulica_klienta, miasto_klienta,
+kod_pocztowy_klienta, numer_telefonu_klienta, email_klienta)
+values('Bogdan', 'Zbyszkowski','Spychowska 45', 'Olsztyn', '08-044',
+(select round(dbms_random.value(500000000,900000000),0) from dual),
+'spych@gmail.com');
+
+
